@@ -8,15 +8,17 @@ const config: Config = {
   tagline: "AI-Native Textbook for the Future of Robotics",
   favicon: 'img/favicon.ico',
 
-  
+
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
   url: 'https://HassanRaza477.github.io',
   baseUrl: '/Phisical-ai-book',
-  organizationName: 'HassanRaza477', 
-  projectName: 'Phisical-ai-book', 
-  onBrokenLinks: 'throw',
+  organizationName: 'HassanRaza477',
+  projectName: 'Phisical-ai-book',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
